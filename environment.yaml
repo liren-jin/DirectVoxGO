@@ -1,0 +1,23 @@
+name: dvgo
+channels:
+- pytorch
+- conda-forge
+- pyg
+dependencies:
+- python==3.9
+- pip
+- pip:
+  - numpy
+  - einops
+  - scipy
+  - tqdm
+  - lpips
+  - mmcv==1.0.0
+  - imageio
+  - imageio-ffmpeg
+  - opencv-python
+  - torch_efficient_distloss
+  - ninja
+- pytorch==1.12.0
+- torchvision==0.13.0
+- pytorch-scatter
